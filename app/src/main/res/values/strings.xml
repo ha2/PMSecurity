@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PMSecurity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvTitle">PM Security</string>
+    <string name="filter">Filter</string>
+    <string name="no_permission">No Permission</string>
+    <string name="requested_permissions">Requested Permissions</string>
+    <string name="package_name">Package Name</string>
+    <string name="no_package_name">No Package Name</string>
+    <string name="no_application_label">No Application Label</string>
+    <string name="application_label">Application Label</string>
+    <string name="choose_permission_group">Choose permission-group</string>
+    <string name="spinner_hint">Spinner hint</string>
+    <string name="all">All</string>
+    <string name="all_regex">.*</string>
+    <string name="number_of_packages">Number of packages</string>
+
+</resources>

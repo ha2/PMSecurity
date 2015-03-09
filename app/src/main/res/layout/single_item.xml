@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSingleItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/ivAppIcon"
+        android:scaleType="centerInside"
+        android:padding="2dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvPackageName"
+        android:hint="Empty"
+        android:textSize="16sp"
+        android:paddingBottom="5px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPackageDescription"
+        android:text="Üres"
+        android:textSize="12sp"
+        android:paddingBottom="5px"
+        android:background="@color/switch_thumb_normal_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
